@@ -34,14 +34,12 @@ const Header = () => (
 
         <div className="tag-cmp app__flex">
           <p className="p-text">Full Stack Developer</p>
-          {/* <a href="" download=""/> */}
-          {/* <button className="btn highlighted-btn">Get Resume</button> */}
         </div>
-        <div >
-          <a href="../../assets/cv.pdf" download="../../assets/cv.pdf">
-            <button type='button' class="p-text"> Get CV</button>
+        {/* <div>
+          <a href="./sara.pdf" download>
+            <button type='button' class="p-text"> Get Resume</button>
           </a>
-        </div>
+        </div> */}
       </div>
     </motion.div>
 
