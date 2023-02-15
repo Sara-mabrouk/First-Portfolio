@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import {GiCoffeeCup} from 'react-icons/gi'; 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
@@ -37,7 +37,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Take a coffee <GiCoffeeCup style={{ color:"brown",fontSize:"3.5rem"  }}/>  chat with me</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
